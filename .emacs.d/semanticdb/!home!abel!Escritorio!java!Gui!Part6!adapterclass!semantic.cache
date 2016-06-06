@@ -1,0 +1,77 @@
+;; Object adapterclass/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "adapterclass/"
+  :tables (list 
+   (semanticdb-table "MouseDetailsFrame.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.awt.event.MouseAdapter" include nil nil [1 36])
+            ("java.awt.BorderLayout" include nil nil [37 66])
+            ("javax.swing.JLabel" include nil nil [67 93])
+            ("javax.swing.JFrame" include nil nil [94 120])
+            ("java.awt.event.MouseEvent" include nil nil [121 154])
+            ("MouseDetailsFrame" type
+               (:typemodifiers ("public")
+                :superclasses "JFrame"
+                :members 
+                  ( ("details" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [212 235])
+                    ("statusBar" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JLabel")
+                        (reparse-symbol class_member_declaration) [240 271])
+                    ("MouseDetailsFrame" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [277 500])
+                    ("MouseClickHandler" type
+                       (:typemodifiers ("private")
+                        :superclasses "MouseAdapter"
+                        :members 
+                          ( ("mouseClicked" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("event" variable (:type "MouseEvent") (reparse-symbol formal_parameters) [599 615]))                                  
+                                :type "void")
+                                (reparse-symbol class_member_declaration) [574 1156]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [506 1162]))                  
+                :type "class")
+                nil [156 1164]))          
+    :file "MouseDetailsFrame.java"
+    :pointmax 1165
+    :fsize 1161
+    :lastmodtime '(22311 62488 339331 396000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "MouseDetailsFramePrueba.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("javax.swing.JFrame" include nil nil [1 27])
+            ("MouseDetailsFramePrueba" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [95 108]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [71 325]))                  
+                :type "class")
+                nil [28 328]))          
+    :file "MouseDetailsFramePrueba.java"
+    :pointmax 329
+    :fsize 328
+    :lastmodtime '(22311 61999 83345 852000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!abel!Escritorio!java!Gui!Part6!adapterclass!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

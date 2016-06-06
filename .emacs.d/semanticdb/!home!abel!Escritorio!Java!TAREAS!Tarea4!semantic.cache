@@ -1,0 +1,407 @@
+;; Object Tarea4/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Tarea4/"
+  :tables (list 
+   (semanticdb-table "Casa.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("Casa" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("color" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [121 142])
+                    ("numero" variable
+                       (:typemodifiers ("private")
+                        :type "short")
+                        (reparse-symbol class_member_declaration) [147 168])
+                    ("propietario" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [173 200])
+                    ("Casa" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [250 332])
+                    ("Casa" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("color" variable (:type "String") (reparse-symbol formal_parameters) [382 394])
+                            ("numero" variable (:type "short") (reparse-symbol formal_parameters) [396 408])
+                            ("propietario" variable (:type "String") (reparse-symbol formal_parameters) [410 428]))                          )
+                        (reparse-symbol class_member_declaration) [370 514])
+                    ("getPropietario" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [538 603])
+                    ("getColor" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [609 662])
+                    ("getNumero" function
+                       (:typemodifiers ("public")
+                        :type "short")
+                        (reparse-symbol class_member_declaration) [668 722])
+                    ("setPropietario" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("propietario" variable (:type "String") (reparse-symbol formal_parameters) [775 793]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [748 832])
+                    ("setColor" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("color" variable (:type "String") (reparse-symbol formal_parameters) [859 871]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [838 898])
+                    ("setNumero" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("numero" variable (:type "short") (reparse-symbol formal_parameters) [926 938]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [904 967])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1057 1188]))                  
+                :type "class")
+                nil [57 1191]))          
+    :file "Casa.java"
+    :pointmax 1192
+    :fsize 1193
+    :lastmodtime '(22247 7979 954623 550000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "CasaPrueba.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.Scanner" include nil nil [1 26])
+            ("CasaPrueba" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [80 93]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [56 823]))                  
+                :type "class")
+                nil [27 825]))          
+    :file "CasaPrueba.java"
+    :pointmax 826
+    :fsize 825
+    :lastmodtime '(22248 13653 901971 349000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Zapato.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("Zapato" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("color" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [124 145])
+                    ("talla" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [150 171])
+                    ("marca" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [176 197])
+                    ("Zapato" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [254 325])
+                    ("Zapato" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("color" variable (:type "String") (reparse-symbol formal_parameters) [377 389])
+                            ("talla" variable (:type "double") (reparse-symbol formal_parameters) [391 403])
+                            ("marc" variable (:type "String") (reparse-symbol formal_parameters) [405 416]))                          )
+                        (reparse-symbol class_member_declaration) [363 486])
+                    ("getColor" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [508 555])
+                    ("getTalla" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [565 612])
+                    ("getMarca" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [622 669])
+                    ("setColor" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("color" variable (:type "String") (reparse-symbol formal_parameters) [712 724]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [691 754])
+                    ("setMarca" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("marc" variable (:type "String") (reparse-symbol formal_parameters) [781 792]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [760 821])
+                    ("setTalla" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("talla" variable (:type "double") (reparse-symbol formal_parameters) [848 860]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [827 890])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [976 1093]))                  
+                :type "class")
+                nil [58 1096]))          
+    :file "Zapato.java"
+    :pointmax 1097
+    :fsize 1097
+    :lastmodtime '(22313 12303 439161 83000)
+    :unmatched-syntax '(($EOI 1097 . 1097) ($EOI 1097 . 1097) ($EOI 1101 . 1101))
+    )
+   (semanticdb-table "ZapatoPrueba.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.Scanner" include nil nil [1 26])
+            ("ZapatoPrueba" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [83 96]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [59 816]))                  
+                :type "class")
+                nil [27 818]))          
+    :file "ZapatoPrueba.java"
+    :pointmax 819
+    :fsize 818
+    :lastmodtime '(22313 13832 19220 546000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ReciboCompras.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("ReciboCompras" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("empresa" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [139 162])
+                    ("cant_art" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [167 188])
+                    ("total" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [193 214])
+                    ("ReciboCompras" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [268 348])
+                    ("ReciboCompras" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("empresa" variable (:type "String") (reparse-symbol formal_parameters) [407 421])
+                            ("cant_art" variable (:type "int") (reparse-symbol formal_parameters) [423 435])
+                            ("total" variable (:type "double") (reparse-symbol formal_parameters) [437 449]))                          )
+                        (reparse-symbol class_member_declaration) [386 531])
+                    ("getEmpresa" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [537 588])
+                    ("setEmpresa" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("empresa" variable (:type "String") (reparse-symbol formal_parameters) [617 631]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [594 665])
+                    ("getCant_art" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [676 726])
+                    ("setCant_art" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cant_art" variable (:type "int") (reparse-symbol formal_parameters) [756 768]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [732 804])
+                    ("getTotal" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [815 862])
+                    ("setTotal" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("total" variable (:type "double") (reparse-symbol formal_parameters) [894 906]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [873 936])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1022 1162]))                  
+                :type "class")
+                nil [66 1165]))          
+    :file "ReciboCompras.java"
+    :pointmax 1166
+    :fsize 1166
+    :lastmodtime '(22313 13581 719210 809000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ReciboComprasPrueba.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.Scanner" include nil nil [1 26])
+            ("ReciboComprasPrueba" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [89 102]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [65 892]))                  
+                :type "class")
+                nil [27 894]))          
+    :file "ReciboComprasPrueba.java"
+    :pointmax 895
+    :fsize 894
+    :lastmodtime '(22313 13818 451220 18000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Bolsa.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("Bolsa" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("color" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [123 144])
+                    ("precio" variable
+                       (:typemodifiers ("private")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [149 171])
+                    ("propietario" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [176 203])
+                    ("Bolsa" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [253 325])
+                    ("Bolsa" function
+                       (:constructor-flag t
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("color" variable (:type "String") (reparse-symbol formal_parameters) [376 388])
+                            ("precio" variable (:type "double") (reparse-symbol formal_parameters) [390 403])
+                            ("propietario" variable (:type "String") (reparse-symbol formal_parameters) [405 423]))                          )
+                        (reparse-symbol class_member_declaration) [363 508])
+                    ("getColor" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [524 576])
+                    ("setColor" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("argColor" variable (:type "String") (reparse-symbol formal_parameters) [608 623]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [587 656])
+                    ("getPrecio" function
+                       (:typemodifiers ("public")
+                        :type "double")
+                        (reparse-symbol class_member_declaration) [667 721])
+                    ("setPrecio" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("argPrecio" variable (:type "double") (reparse-symbol formal_parameters) [754 770]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [732 805])
+                    ("getPropietario" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [816 880])
+                    ("setPropietario" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("argPropietario" variable (:type "String") (reparse-symbol formal_parameters) [913 934]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [886 979])
+                    ("toString" function
+                       (:typemodifiers ("public")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1065 1196]))                  
+                :type "class")
+                nil [58 1199]))          
+    :file "Bolsa.java"
+    :pointmax 1212
+    :fsize 1200
+    :lastmodtime '(22313 14389 79242 216000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "BolsaPrueba.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.util.Scanner" include nil nil [1 26])
+            ("BolsaPrueba" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [81 94]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [57 833])
+                    ("input" variable (:type "Scanner") (reparse-symbol class_member_declaration) [395 434])
+                    ("color" variable (:type "String") (reparse-symbol class_member_declaration) [436 449])
+                    ("propietario" variable (:type "String") (reparse-symbol class_member_declaration) [451 470])
+                    ("precio" variable (:type "double") (reparse-symbol class_member_declaration) [472 486])
+                    ("bolsa3" variable (:type "Bolsa") (reparse-symbol class_member_declaration) [703 756]))                  
+                :type "class")
+                nil [27 833]))          
+    :file "BolsaPrueba.java"
+    :pointmax 842
+    :fsize 835
+    :lastmodtime '(22313 14485 43245 949000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Documento.html"
+    :major-mode 'html-mode
+    :tags nil
+    :file "Documento.html"
+    :pointmax 1341
+    :fsize 1344
+    :lastmodtime '(22328 64679 439951 61000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!abel!Escritorio!Java!TAREAS!Tarea4!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

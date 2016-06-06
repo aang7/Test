@@ -1,0 +1,127 @@
+;; Object Escritorio/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Escritorio/"
+  :tables (list 
+    (semanticdb-table "estudiar.html"
+    :major-mode 'html-mode
+    :tags 
+        '( ("estudiar" section nil nil [240 2249])
+            ("/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2013 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = \"code-highlighted\";
+     elem.className   = \"code-highlighted\";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->" section nil nil [2249 3869])
+            ("estudiar" section (:members 
+              ( ("estudiar" section (:members 
+                  ( ("Table of Contents" section (:members 
+                      ( ("1 ¿Que es una base de datos?" anchor nil nil [4058 4061])
+                        ("2 Diagrama ENTIDAD - RELACION" anchor nil nil [4117 4120])
+                        ("3 SQL" anchor nil nil [4177 4180])
+                        ("4 ¿Que es una tabla?" anchor nil nil [4213 4216])
+                        ("5 JDBC" anchor nil nil [4264 4267])
+                        ("6 ODBC" anchor nil nil [4301 4304])
+                        ("7 java EE" anchor nil nil [4338 4341])
+                        ("8 JSF (JavaServer Faces)" anchor nil nil [4378 4381])
+                        ("9 WAMP SERVER" anchor nil nil [4433 4436])
+                        ("10 MySQL" anchor nil nil [4477 4480])
+                        ("11 MySQL workbench" anchor nil nil [4517 4520])
+                        ("12 Diagramas UML" anchor nil nil [4567 4570])
+                        ("12.1 ¿Cuales Son?" anchor nil nil [4615 4618])
+                        ("13 Diccionario de Datos" anchor nil nil [4678 4681])
+                        ("14 Arquitectura Multicapa" anchor nil nil [4733 4736]))                      ) nil [3988 4856])
+                    ("1" section nil nil [4856 5292])
+                    ("2" section nil nil [5292 5966])
+                    ("3" section nil nil [5966 6686])
+                    ("4" section nil nil [6686 7237])
+                    ("5" section nil nil [7237 7589])
+                    ("6" section nil nil [7589 8200])
+                    ("7" section nil nil [8200 8667])
+                    ("8" section nil nil [8667 9139])
+                    ("9" section nil nil [9139 9668])
+                    ("10" section nil nil [9668 10044])
+                    ("11" section nil nil [10044 10463])
+                    ("12" section (:members 
+                      ( ("12.1" section nil nil [10791 11258]))                      ) nil [10463 11258])
+                    ("13" section nil nil [11258 11850])
+                    ("14" section (:members 
+                      ( ("Org" anchor nil nil [12943 12946])
+                        ("Emacs" anchor nil nil [13000 13003])
+                        ("Validate XHTML 1.0" anchor nil nil [13070 13073]))                      ) nil [11850 13169]))                  ) nil [3925 13169]))              ) nil [3869 13169]))          
+    :file "estudiar.html"
+    :pointmax 13169
+    :fsize 13260
+    :lastmodtime '(22350 328 183430 376000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Solution.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.io.*" include nil nil [1 18])
+            ("java.util.*" include nil nil [19 38])
+            ("java.text.*" include nil nil [39 58])
+            ("java.math.*" include nil nil [59 78])
+            ("java.util.regex.*" include nil nil [79 104])
+            ("Solution" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [157 170]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [133 342]))                  
+                :type "class")
+                nil [106 344]))          
+    :file "Solution.java"
+    :pointmax 332
+    :fsize 344
+    :lastmodtime '(22350 7407 573600 372000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!abel!Escritorio!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

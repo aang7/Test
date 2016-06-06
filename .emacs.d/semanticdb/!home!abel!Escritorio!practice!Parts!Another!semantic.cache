@@ -1,0 +1,120 @@
+;; Object Another/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Another/"
+  :tables (list 
+   (semanticdb-table "Panel.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.awt.GridLayout" include nil nil [1 28])
+            ("java.awt.FlowLayout" include nil nil [29 56])
+            ("java.awt.BorderLayout" include nil nil [57 86])
+            ("java.awt.Color" include nil nil [87 109])
+            ("javax.swing.JButton" include nil nil [110 137])
+            ("javax.swing.JTextField" include nil nil [138 168])
+            ("javax.swing.JLabel" include nil nil [169 195])
+            ("javax.swing.JPanel" include nil nil [196 222])
+            ("Panel" type
+               (:typemodifiers ("public")
+                :superclasses "JPanel"
+                :members 
+                  ( ("boton" variable
+                       (:dereference 1
+                        :typemodifiers ("private" "final")
+                        :type "JButton")
+                        (reparse-symbol class_member_declaration) [292 322])
+                    ("campo" variable
+                       (:dereference 1
+                        :typemodifiers ("private" "final")
+                        :type "JTextField")
+                        (reparse-symbol class_member_declaration) [369 402])
+                    ("etiqueta" variable
+                       (:dereference 1
+                        :typemodifiers ("private" "final")
+                        :type "JLabel")
+                        (reparse-symbol class_member_declaration) [459 491])
+                    ("Panel" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [629 1243]))                  
+                :type "class")
+                nil [225 1270]))          
+    :file "Panel.java"
+    :pointmax 1271
+    :fsize 1272
+    :lastmodtime '(22308 63203 4646 703000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Frame.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("java.awt.GridLayout" include nil nil [1 28])
+            ("java.awt.FlowLayout" include nil nil [29 56])
+            ("java.awt.BorderLayout" include nil nil [57 86])
+            ("javax.swing.JPanel" include nil nil [204 230])
+            ("javax.swing.JFrame" include nil nil [231 257])
+            ("Frame" type
+               (:typemodifiers ("public")
+                :superclasses "JFrame"
+                :members 
+                  ( ("mipanel5" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Panel")
+                        (reparse-symbol class_member_declaration) [358 367])
+                    ("mipanel4" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Panel")
+                        (reparse-symbol class_member_declaration) [348 357])
+                    ("mipanel3" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Panel")
+                        (reparse-symbol class_member_declaration) [338 347])
+                    ("mipanel2" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Panel")
+                        (reparse-symbol class_member_declaration) [328 337])
+                    ("mipanel" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Panel")
+                        (reparse-symbol class_member_declaration) [299 327])
+                    ("Frame" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [377 832]))                  
+                :type "class")
+                nil [259 834]))          
+    :file "Frame.java"
+    :pointmax 835
+    :fsize 834
+    :lastmodtime '(22308 63083 512650 233000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Prueba.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("javax.swing.JFrame" include nil nil [1 27])
+            ("javax.swing.JPanel" include nil nil [28 54])
+            ("Prueba" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [105 118]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [81 269]))                  
+                :type "class")
+                nil [55 276]))          
+    :file "Prueba.java"
+    :pointmax 277
+    :fsize 276
+    :lastmodtime '(22308 13366 534708 457000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!abel!Escritorio!practice!Parts!Another!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

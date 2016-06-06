@@ -1,0 +1,251 @@
+;; Object Parts/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "Parts/"
+  :tables (list 
+   (semanticdb-table "Motor.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("Motor" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("new_string" variable
+                       (:typemodifiers ("private")
+                        :type "StringBuilder")
+                        (reparse-symbol class_member_declaration) [53 86])
+                    ("string" variable
+                       (:typemodifiers ("private")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [91 113])
+                    ("Motor" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [136 184])
+                    ("analisis" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("str" variable (:type "String") (reparse-symbol formal_parameters) [211 221]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [190 530])
+                    ("getNew_string" function
+                       (:typemodifiers ("public")
+                        :type "StringBuilder")
+                        (reparse-symbol class_member_declaration) [546 610])
+                    ("setNew_string" function
+                       (:typemodifiers ("public" "final")
+                        :arguments 
+                          ( ("new_str" variable (:type "String") (reparse-symbol formal_parameters) [722 736]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [690 776]))                  
+                :type "class")
+                nil [1 779]))          
+    :file "Motor.java"
+    :pointmax 895
+    :fsize 894
+    :lastmodtime '(22303 60431 236943 655000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Frame.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("javax.swing.JFrame" include nil nil [1 27])
+            ("javax.swing.JTextField" include nil nil [28 58])
+            ("javax.swing.JLabel" include nil nil [59 85])
+            ("javax.swing.JButton" include nil nil [86 113])
+            ("java.awt.FlowLayout" include nil nil [114 141])
+            ("java.awt.GridLayout" include nil nil [142 169])
+            ("java.awt.BorderLayout" include nil nil [170 199])
+            ("java.awt.event.ActionListener" include nil nil [200 237])
+            ("java.awt.event.ActionEvent" include nil nil [238 272])
+            ("javax.swing.JPanel" include nil nil [273 299])
+            ("javax.swing.JOptionPane" include nil nil [300 331])
+            ("Frame" type
+               (:typemodifiers ("public")
+                :superclasses "JFrame"
+                :members 
+                  ( ("boton2" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JButton")
+                        (reparse-symbol class_member_declaration) [402 409])
+                    ("boton" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JButton")
+                        (reparse-symbol class_member_declaration) [373 401])
+                    ("campo2" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JTextField")
+                        (reparse-symbol class_member_declaration) [446 453])
+                    ("campo" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JTextField")
+                        (reparse-symbol class_member_declaration) [414 445])
+                    ("result2" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JTextField")
+                        (reparse-symbol class_member_declaration) [491 499])
+                    ("result" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JTextField")
+                        (reparse-symbol class_member_declaration) [458 490])
+                    ("etiqueta2" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JLabel")
+                        (reparse-symbol class_member_declaration) [535 545])
+                    ("etiqueta" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JLabel")
+                        (reparse-symbol class_member_declaration) [504 534])
+                    ("mipanel2" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JPanel")
+                        (reparse-symbol class_member_declaration) [580 589])
+                    ("mipanel" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JPanel")
+                        (reparse-symbol class_member_declaration) [550 579])
+                    ("motor" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Motor")
+                        (reparse-symbol class_member_declaration) [594 620])
+                    ("Frame" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [643 1820])
+                    ("Listener" type
+                       (:typemodifiers ("private")
+                        :interfaces ("ActionListener")
+                        :members 
+                          ( ("actionPerformed" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("event" variable (:type "ActionEvent") (reparse-symbol formal_parameters) [1964 1981]))                                  
+                                :type "void")
+                                (reparse-symbol class_member_declaration) [1936 2266]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [1873 2272]))                  
+                :type "class")
+                nil [333 2279]))          
+    :file "Frame.java"
+    :pointmax 2280
+    :fsize 2280
+    :lastmodtime '(22306 58458 207082 641000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "MotorPrueba.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("MotorPrueba" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [55 68]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [31 167]))                  
+                :type "class")
+                nil [1 169]))          
+    :file "MotorPrueba.java"
+    :pointmax 179
+    :fsize 178
+    :lastmodtime '(22303 58191 57009 845000)
+    :unmatched-syntax '((EQ 177 . 178) (IDENTIFIER 171 . 176))
+    )
+   (semanticdb-table "Prueba.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("javax.swing.JFrame" include nil nil [1 27])
+            ("javax.swing.JPanel" include nil nil [28 54])
+            ("Prueba" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [104 117]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [80 266]))                  
+                :type "class")
+                nil [55 269]))          
+    :file "Prueba.java"
+    :pointmax 273
+    :fsize 272
+    :lastmodtime '(22306 58236 31076 220000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "Frame.java~"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("javax.swing.JFrame" include nil nil [1 27])
+            ("javax.swing.JTextField" include nil nil [28 58])
+            ("javax.swing.JLabel" include nil nil [59 85])
+            ("javax.swing.JButton" include nil nil [86 113])
+            ("java.awt.FlowLayout" include nil nil [114 141])
+            ("java.awt.GridLayout" include nil nil [142 169])
+            ("java.awt.BorderLayout" include nil nil [170 199])
+            ("java.awt.event.ActionListener" include nil nil [200 237])
+            ("java.awt.event.ActionEvent" include nil nil [238 272])
+            ("javax.swing.JPanel" include nil nil [273 299])
+            ("javax.swing.JOptionPane" include nil nil [300 331])
+            ("Frame" type
+               (:typemodifiers ("public")
+                :superclasses "JFrame"
+                :members 
+                  ( ("boton" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JButton")
+                        (reparse-symbol class_member_declaration) [373 401])
+                    ("campo" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JTextField")
+                        (reparse-symbol class_member_declaration) [406 437])
+                    ("result" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JTextField")
+                        (reparse-symbol class_member_declaration) [442 474])
+                    ("etiqueta" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JLabel")
+                        (reparse-symbol class_member_declaration) [479 509])
+                    ("mipanel" variable
+                       (:typemodifiers ("private" "final")
+                        :type "JPanel")
+                        (reparse-symbol class_member_declaration) [514 557])
+                    ("motor" variable
+                       (:typemodifiers ("private" "final")
+                        :type "Motor")
+                        (reparse-symbol class_member_declaration) [562 588])
+                    ("Frame" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [611 1621])
+                    ("Listener" type
+                       (:typemodifiers ("private")
+                        :interfaces ("ActionListener")
+                        :members 
+                          ( ("actionPerformed" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("event" variable (:type "ActionEvent") (reparse-symbol formal_parameters) [1765 1782]))                                  
+                                :type "void")
+                                (reparse-symbol class_member_declaration) [1737 2067]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [1674 2073]))                  
+                :type "class")
+                nil [333 2080]))          
+    :file "Frame.java~"
+    :pointmax 2081
+    :fsize 2081
+    :lastmodtime '(22305 28373 162760 814000)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!home!abel!Escritorio!practice!Parts!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

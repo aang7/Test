@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: LATEX instruction
+# key: l
+# --
+#+LATEX: $0

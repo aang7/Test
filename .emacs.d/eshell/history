@@ -1,0 +1,10 @@
+ls
+clear
+ls
+cd Downloads/
+ls
+cd
+cd Escritorio/Java/Interfaces/Texto/
+ls
+java TextAnalysisPrueba
+clear

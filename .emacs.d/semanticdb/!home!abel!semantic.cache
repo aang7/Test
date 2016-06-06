@@ -1,0 +1,49 @@
+;; Object abel/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "abel/"
+  :tables (list 
+   (semanticdb-table "prime.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("main" function (:type "int") nil [20 255]))          
+    :file "prime.c"
+    :pointmax 296
+    :fsize 295
+    :lastmodtime '(22069 33895 493898 106000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ejemplo.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("main" function (:type "int") nil [20 125]))          
+    :file "ejemplo.c"
+    :pointmax 126
+    :fsize 125
+    :lastmodtime '(22287 44983 310187 802000)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "probando.c"
+    :major-mode 'c-mode
+    :tags 
+        '( ("stdio.h" include (:system-flag t) nil [1 18])
+            ("IN" variable (:constant-flag t) nil [27 29])
+            ("OUT" variable (:constant-flag t) nil [40 43])
+            ("main" function (:type "int") nil [47 498]))          
+    :file "probando.c"
+    :pointmax 499
+    :fsize 498
+    :lastmodtime '(22008 62604 172307 202000)
+    :unmatched-syntax 'nil
+    :lexical-table 
+        '(("OUT" . ((number "0" 44 . 45)))
+          ("IN" . ((number "1" 30 . 31)))
+          )
+
+    )
+   )
+  :file "!home!abel!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
