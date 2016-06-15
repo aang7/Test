@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/menu_multi">
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Frag01"
+        android:id="@+id/btnFrag01"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Frag02"
+        android:id="@+id/btnFrag02"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Frag03"
+        android:id="@+id/btnFrag03"
+        android:layout_weight="1" />
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Frag04"
+        android:id="@+id/btnFrag04"
+        android:layout_weight="1" />
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Frag05"
+        android:id="@+id/btnFrag05"
+        android:layout_weight="1" />
+
+</LinearLayout>

@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ff000000"
+    tools:context="${relativePackage}.${activityClass}"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <!--android:scaleX="-1"-->
+
+
+   <!-- <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:text="Heading: 0.0"
+        android:textColor="#ffffffff" />
+-->
+    <com.raddapp.radika.customgauge.CompassGauge
+        android:id="@+id/gauge1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+
+        android:paddingBottom="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        app:gaugePointStartColor="@color/md_red_500"
+        app:gaugePointEndColor="@color/md_red_500"
+        app:gaugePointSize="6"
+        app:gaugeStartAngel="270"
+        app:gaugeStrokeCap="ROUND"
+        app:gaugeStrokeColor="@color/md_grey_400"
+        app:gaugeStrokeWidth="20dp"
+        app:gaugeStartValue="0"
+        app:gaugeEndValue="360"
+        app:gaugeSweepAngel="360" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gauge1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="80dp"
+        android:text="256"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="@color/md_white_1000"/>
+
+    <!--android:layout_marginBottom="40dp"-->
+
+
+</RelativeLayout>

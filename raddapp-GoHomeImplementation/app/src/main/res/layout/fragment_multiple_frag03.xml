@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ff000000"
+    tools:context="${relativePackage}.${activityClass}">
+
+
+
+        <com.raddapp.radika.customgauge.SpeedGauge
+            android:id="@+id/gauge1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+
+            android:paddingBottom="20dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingTop="20dp"
+
+            app:gaugePointStartColor="@color/md_green_500"
+            app:gaugePointEndColor="@color/md_red_500"
+            app:gaugeStartAngel="135"
+            app:gaugeStrokeCap="BUTT"
+            app:gaugeStrokeColor="@color/md_grey_400"
+            app:gaugeStrokeWidth="20dp"
+            app:gaugeStartValue="0"
+            app:gaugeEndValue="200"
+            app:gaugeSweepAngel="270"
+            />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/gauge1"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="60dp"
+        android:text="0"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:textColor="@color/md_white_1000"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+
+        android:text="km/h"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="@color/md_white_1000"/>
+
+</RelativeLayout>
