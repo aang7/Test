@@ -205,6 +205,7 @@ public class CustomGauge extends View {
     }
 
     public void setAnimation(){
+        /*Tengo que implementar en este archivo el alpha animation */
     }
 
 }
