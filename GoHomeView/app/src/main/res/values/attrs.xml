@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CustomGauge">
+    <declare-styleable name="GoHomeGauge">
         <attr name="gaugePointSize" format="integer" />
         <attr name="gaugePointStartColor" format="color" />
         <attr name="gaugePointEndColor" format="color" />
